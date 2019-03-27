@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marine Defense</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="scripts/home.js"></script>
+   </head>
+   <body>
+  <!--misc :
+  -on a ship at div 2, continues down the anchor till last div with aquaman.
+  - words on the right of page-->
+     <a href="#title"><i class="fas fa-arrow-circle-up"></i></a>
+
+  <!--div 1 cover-->
+ <header>
+    <div class="navbar">
+      <nav>
+       <img src="Bratman's Turtle.png" alt="Bratman's Turtle" width="50px" height="50px" class="logo"/>
+        <ul>
+         <li class="about-class"><a href="#about">About</a></li>
+         <li class="facts-class"><a href="#facts">Facts</a></li>
+         <li class="activities-class"><a href="#activities">Activities</a></li>
+         <li class="FAQ-class"><a href="#FAQ">FAQ</a></li>
+         <li class="contactus-class"><a href="#contactus">Contact Us</a></li>
+         <li class="signup-top"><a href="#signup-bottom">Sign Up</a></li>
+         <li class="donate"><a href="donate.html" target="_blank">Donate</a></li>
+       </ul>
+      </nav>
+   </header>
+
+
+    <div id="title">
+      <h2 class="heading">Be the next<br> marine savior!</h2>
+      <h3>Have what it takes to be the next Aquaman? <br> Let's defend the marine life!</h3>
+
+      <section class="aquaman">
+         <label for="aquaman">How much do you know<br> about marine life?</label>
+         <br><br>
+         <span>A bit!</span>
+           <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+         <span>A lot!</span>
+       </section>
+    </div>
+  </div>
+
+
+  <!-- div 2: About Marine Life-->
+     <div id="about">
+       <h2>About</h2><hr>
+       <h3>Get to know more about us!</h3>
+       <br>
+       <button type="button" class="btn"><a href="about.html">About Us</a></button>
+       <button type="button" class="btn"><a href="team.html">The Team</a></button>
+    </div>
+
+  <!--div 2: Facts-->
+     <div id="facts">
+       <h2>Facts</h2><hr>
+       <p>Learn And Explore What's Beneath!</p>
+      <button type="button" class="btn"><a href="facts.html">Facts!</a></button>
+      <br>
+      <button type="button" class="btn"><a href="documentaries.html">Documentaries</a></button>
+        <button type="button" class="btn"><a href="statistics.html">Statistics</a></button>
+
+     </div>
+
+  <!--div 3: Activities-->
+    <div id="activities">
+      <h2>Our Activities!</h2><hr>
+        <button type="button" class="btn"><a href="activities.html">Activities</a></button>
+      <!--style : IG style. Horizontal layout. Use canva then upload as pictures -->
+    </div>
+
+  <!--div 4: FAQ-->
+    <div id="FAQ">
+      <h2 id=FAQ-title>Frequently Asked Questions</h2>
+      <hr><br>
+      <!--style : tweeter style + drop down-->
+      <div id="qn-one">
+        <h3 class= question>1. How frequent are the workshops and what is the commitment like?</h3>
+        <h4 class= answer>It is on a daily basis depending on the workshop itself. Some are once a week and some are biweekly, but most are once in 2 weeks.
+        Don't worry about not being able to commit fully. You may choose your preferred dates!</h4>
+      </div>
+      <br>
+      <div id="qn-two">
+        <h3 class= question>2. I am a student and I don't have enough money to pay for the workshops?</h3>
+        <h4 class= answer>It is alright! We have student rates too! We also have a 'pay it forward' system where by someone can pay on behalf of others who
+        can't afford our classes.</h4>
+      </div>
+    </div>
+
+  <!--div 5: Contact Us, dropdown-->
+    <div id="contactus">
+      <form action="submission.html" method="post">
+        <h2>Contact Us!</h2><hr>
+        <h3>We will reply to your queries within 3 working days.</h3>
+        <br><br>
+        <label for="name"></label>
+        <input type="text" required name="name" value="" placeholder="Name" class="name"> <br><br>
+        <label for="email"></label>
+        <input type="text" required name="email" value="" placeholder="Email" class="email"> <br><br>
+        <label for="message"></label>
+        <textarea type="text" maxlength="300" required name="message" value="" placeholder="Message (max 300 characters)" class="message" rows="5" cols="30"></textarea> <br><br>
+         <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Submit</button>
+      </form>
+    </div>
+
+<!--  div 6: Sign Up
+    <div id="signup-bottom">
+     <h1>Sign up now!</h1>
+     <img class="logo2" src="Bratman's Turtle.png" alt="Bratman's Turtle" width="350px" height="350px" align="right"/>
+   </div> -->
+
+
+  <!--div 7: Footer-->
+    <div id="footer">
+     <span id="icons">
+       <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+       <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+       <a href="https://plus.google.com" target="_blank"><i class="fab fa-google-plus"></i></a>
+       <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+     </span>
+     <br>
+      <p>"Without turtles...there won't be any turtles."<br>- Bretman Rock <i class="fas fa-heartbeat"></i></p>
+      <p> &copy; 2019 Marine Squad </p>
+    </div>
+
+  </body>
+</html>

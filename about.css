@@ -1,0 +1,68 @@
+body {
+  width: 0 auto;
+  margin: 0 auto;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#call-back{
+  padding-left: 200px;
+  width: 70%;
+  align-items: center;
+max-width: 1280px;
+
+   min-width: 480px;
+   padding-bottom: 40px;
+}
+#call{
+
+  padding-left: 350px;
+  width: 70%;
+  align-items: center;
+max-width: 1280px;
+
+   min-width: 480px;
+    padding-bottom: 40px;
+}
+
+#visio{
+  padding-left: 150px;
+  width: 70%;
+  align-items: center;
+  max-width: 1280px;
+
+   min-width: 480px;
+ padding-bottom: 40px;
+}
+#collaboration{
+  padding-left: 180px;
+  width: 70%;
+  align-items: center;
+  max-width: 1280px;
+  min-width: 480px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-content{
+
+  padding-left: 200px;
+  width: 70%;
+  align-items: center;
+  max-width: 1280px;
+
+   min-width: 480px;
+ padding-bottom: 40px;
+}
+.greenhub{
+  padding-top: 40px;
+  padding-left: 200px;
+  width: 70%;
+  align-items: center;
+  max-width: 1280px;
+
+   min-width: 480px;
+ padding-bottom: 40px;
+}

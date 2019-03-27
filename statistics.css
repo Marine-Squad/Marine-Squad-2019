@@ -1,0 +1,25 @@
+body{
+  margin: 0 auto;
+  width: 0 auto;
+  text-align: center;
+  font-family: cursive;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 120px;
+}
+
+.first{
+  background-color: red;
+}
+
+.second{
+  background-color: blue;
+}
+
+.third{
+  background-color: red;
+}
